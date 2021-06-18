@@ -62,3 +62,52 @@ p {
     left: 42.5%;
     background-color:black;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+    .container {
+        min-width: 100vw;
+        min-height: 100vh;
+        font-size: 30px;
+    }
+
+    #input {
+        font-size: 30px;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        text-align: center;
+    }
+
+    h1 {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        height: 80px;
+     }
+
+     #input2 {
+        font-size: 20px;
+        width: 80px;  
+    }
+
+    #drinks {
+        font-size: 20px;
+    }
+
+    #button {
+        font-size: 20px;
+        width: 70px;   
+    }
+
+    p {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 70%;
+        left: 35%;
+     
+    }
+}
+
+
+
