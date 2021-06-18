@@ -1,5 +1,5 @@
 let options = ["Water", "Wine", "Coffee", "Juice", "Beer"];
-let price = [0.50, 8, 0.80, 1.50, 4.50];
+let price = [0.50, 8, 1, 1.50, 4.50];
 
 var result = document.getElementById("result");
 let button = document.getElementById("button");
